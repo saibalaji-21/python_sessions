@@ -10,5 +10,4 @@ data=s.recv(1024).decode()
 print(f"Received data is {data}")
 s.send(bytes("Data received by the server !!"
              ,"utf-8"))
-s.close()
-c.close()
+
